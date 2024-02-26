@@ -37,7 +37,7 @@ const PassesViewer = () => {
     fetchPasses();
   }, []);
 
-  if (isLoading) return <p>Loading...</p>;
+  if (isLoading) return <p>Chargement des données...</p>;
 
   return (
     <div>
